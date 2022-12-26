@@ -9,7 +9,8 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<table class="table font-monospace" id="total">
+	  <table class="table caption-top font-monospace table-hover table-responsive" id="total">
+          <caption>List of all transaction</caption>
           <thead class="table-dark">
             <tr>
               <th scope="col">#</th>
@@ -37,13 +38,11 @@
               <td>John</td>
               <td>2000</td>
             </tr>
-            <tr class="table-group-divider table-light">
-              <th scope="row"></th>
-              <td></td>
-              <td class="text-end fw-bold">Total</td>
-              <td class="fw-bold">4000</td>
-            </tr>
           </tbody>
+          <tfoot class="table-group-divider table-light">
+            <td class="text-end fw-bold" colspan="3" >Total</td>
+            <td class="fw-bold">4000</td>
+          </tfoot>
         </table>
     <script type="text/javascript" src="./script.js">
 </script>
